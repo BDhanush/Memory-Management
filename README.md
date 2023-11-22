@@ -5,7 +5,7 @@
 
 Run the .cpp file to start contiguous memory allocation simulation with a memory block of 1024 kb. 
 
-# Input:
+## Input:
 
 After running the code, it takes two values.
 
@@ -27,7 +27,7 @@ Second value (memory allocation polices),
 
 It runs the simulation for 2000, after 1000 simulations it starts calculating the following values and prints them in output.
 
-Output:
+## Output:
 
 ● The average fragmentation (as a fraction of total memory)
 
@@ -59,7 +59,7 @@ request
 
 ● The largest number of evictions required in satisfying a single new partition request
 
-Implementation:
+## Implementation:
 
 The contiguous memory is simulated using an array of size 1024 indexed from 1 to 1024. Each unit contains either 0 or 1. 1 indicating that the index is in use, 0 indicating that the index is not in use (is free).
 
