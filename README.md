@@ -1,4 +1,3 @@
-# Memory-Management
 # Operating Systems
 
 # Lab-6: Implementing Contiguous Memory Allocation Schemes
